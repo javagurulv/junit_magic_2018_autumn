@@ -1,0 +1,9 @@
+ChangePassword service requirements:
+
+1) Password length must be at least 5 symbols.
+
+2) Password must contain numbers and letters.
+
+3) For new password
+   a user cannot use any
+   of their previous 3 passwords.

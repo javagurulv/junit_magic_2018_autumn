@@ -1,0 +1,11 @@
+Bowling Game kata
+
+http://codingdojo.org/kata/Bowling/
+https://github.com/unittest-cpp/unittest-cpp/wiki/Writing-More-Tests-With-the-Bowling-Game-Kata
+
+----------------------------------------------------------
+
+String Calculator kata
+
+http://osherove.com/tdd-kata-1/
+http://www.codekatas.org/

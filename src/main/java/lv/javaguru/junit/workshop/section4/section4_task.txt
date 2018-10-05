@@ -1,0 +1,39 @@
+There are several rules
+for logging in to our system:
+
+1) When logging in,
+   a user provides a login and password.
+
+2) The login is a non-blank,
+   unique string containing just about any characters.
+   If login is not provided then throw exception.
+
+3) The password is a non-blank,
+   unique string containing just about any characters.
+   If password is not provided then throw exception.
+
+4) If database contain user with provided credentials,
+   then user must be successfully logged to application.
+   Else throw exception.
+
+5) If a user attempts to log in and provides a
+   valid login but invalid password three times,
+   their account is revoked, and can only be enabled
+   by calling customer support.
+
+6) However, if, for the same session,
+   the user uses different account names,
+   then the account will not be revoked
+   (e.g. try to log in as brett1, brett1, brett2,
+   three failed attempts but the user name is changed,
+   no account gets revoked).
+
+7) Failed login accounts are not maintained
+   between different sessions. E.g., a user opens
+   up two browsers and fails to log in twice
+   to brett1 in one window and fails to log in twice
+   to brett1 in another browser, their account is not revoked.
+
+8) A user cannot login to a revoked account.
+
+9) User can not login twice inside one session.

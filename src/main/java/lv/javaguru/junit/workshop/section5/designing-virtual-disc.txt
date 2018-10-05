@@ -1,0 +1,2 @@
+Coding kata: Designing a virtual disk
+https://github.com/liopic/virtual-disk-design-kata/blob/master/requirement-1/README.md

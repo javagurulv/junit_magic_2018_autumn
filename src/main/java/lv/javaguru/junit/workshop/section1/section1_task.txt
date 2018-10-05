@@ -1,0 +1,17 @@
+Write tests and implementation code
+for TaxCalculator using JUnit framework.
+
+TaxCalculator
+
+Simple rules (1-2):
+1) Income up to 20000 is taxed at 25%
+2) Income of more than 20000 is taxed at 40%
+
+"Hard" rule:
+3) Implement possibility to calculate taxes for different years
+   with different % rates for each year (use mock for this)
+
+Write tests first!
+Tests should drive implementation!
+Use Test Driven Development (TDD) approach!
+After all refactor your production code and tests!
